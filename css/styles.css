@@ -1,0 +1,168 @@
+/* Modified version of https://github.com/sindresorhus/github-markdown-css | MIT License */
+/* Unminify it @ unminify.com */
+hr,
+img {
+  box-sizing: content-box
+}
+
+body:after,
+body:before,
+hr::after,
+hr::before {
+  display: table;
+  content: ""
+}
+
+a,
+a:not([href]) {
+  text-decoration: none
+}
+
+blockquote,
+h6 {
+  color: #777
+}
+
+hr,
+svg:not(:root) {
+  overflow: hidden
+}
+
+dl,
+dl dt,
+hr,
+td,
+th {
+  padding: 0
+}
+
+img,
+table tr {
+  background-color: #fff
+}
+
+pre,
+pre code {
+  word-wrap: normal
+}
+
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  color: #4078c0
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+  text-decoration: underline
+}
+
+strong {
+  font-weight: bolder
+}
+
+
+img {
+  border-style: none;
+  max-width: 100%
+}
+
+input {
+  margin: 0;
+  overflow: visible;
+  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+  outline: ButtonText dotted 1px
+}
+
+[type=checkbox] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all
+}
+
+
+body:after,
+hr::after {
+  clear: both
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 15px;
+  border-left: 4px solid #ddd
+}
+
+table th {
+  font-weight: 700
+}
+
+body>:first-child {
+  margin-top: 0 !important
+}
+
+body>:last-child {
+  margin-bottom: 0 !important
+}
+
+a:not([href]) {
+  color: inherit
+}
+
+
+
+blockquote,
+p,
+pre,
+table {
+  margin-top: 0;
+  margin-bottom: 16px
+}
+
+hr {
+  background: #e7e7e7;
+  height: 4px;
+  margin: 16px 0;
+  border: 0
+}
+
+blockquote>:first-child {
+  margin-top: 0
+}
+
+blockquote>:last-child {
+  margin-bottom: 0
+}
+
+table td,
+table th {
+  padding: 6px 13px;
+  border: 1px solid #ddd
+}
+
+table tr {
+  border-top: 1px solid #ccc
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8
+}
+
+
+

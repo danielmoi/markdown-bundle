@@ -1,0 +1,64 @@
+/* p followed by list */
+p + ol,
+p + ul {
+  margin-top: -1rem;
+}
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ol {
+  list-style-type: lower-roman;
+}
+
+ol ol ol,
+ol ul ol,
+ul ol ol,
+ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+ol,
+ul {
+  padding-left: 2rem
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/*
+This list:
+1. Something
+- one
+- two
+
+is actually TWO lists
+<ol><li>Something</li></ol>
+<ul><li>one</li><li>two</li></ul>
+*/
+/* A. style the <ul> */
+ol + ul {
+  margin-top: -1rem;
+}
+/* B. style the <ol> */
+ul + ol,
+h2 + ol {
+  margin-left: -0.75rem;
+}
+
+/*
+<li><p>two</p></li>
+*/
+li > p {
+  margin: 0;
+}

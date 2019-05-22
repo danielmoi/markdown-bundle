@@ -1,0 +1,45 @@
+code,
+pre {
+  font: .9em Consolas, "Liberation Mono", Menlo, Courier, monospace
+}
+
+code {
+  padding: .2em 0;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, .04);
+  border-radius: 3px
+}
+
+pre code,
+pre>code {
+  padding: 0;
+  margin: 0;
+  border: 0
+}
+
+code:after,
+code:before {
+  letter-spacing: -.2em;
+  content: "\00a0"
+}
+
+pre>code {
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: 0 0
+}
+
+pre code {
+  display: inline;
+  max-width: initial;
+  overflow: initial;
+  line-height: inherit;
+  background-color: transparent
+}
+
+pre code:after,
+pre code:before {
+  content: normal
+}
