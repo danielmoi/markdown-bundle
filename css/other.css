@@ -20,5 +20,6 @@ kbd {
 }
 
 hr {
-  border-bottom-color: #eee
+  border-bottom-color: #eee;
+  height: 1px;
 }
