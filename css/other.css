@@ -23,3 +23,11 @@ hr {
   border-bottom-color: #eee;
   height: 1px;
 }
+
+details {
+  color: hotpink;
+}
+
+summary {
+  color: blue;
+}
