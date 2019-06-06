@@ -36,7 +36,7 @@ summary {
 }
 .heading {
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .wrapper {
 }
@@ -44,9 +44,11 @@ summary {
   position: absolute;
   right: 0;
   height: 1.5rem;
+  line-height: 1rem;
   min-width: 1.5rem;
   padding: 4px 8px;
-  background: #b3b3b3;
+  border: 1px solid #b3b3b3;
+  color: #b3b3b3;
   font-size: 0.8rem;
   border-radius: 4px;
 }
