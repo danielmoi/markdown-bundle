@@ -12,3 +12,8 @@ body {
   word-wrap: break-word;
   padding: 1rem 0.5rem;
 }
+
+body[data-theme='dark'] {
+  background: #121212;
+  color: #ccc;
+}
