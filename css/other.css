@@ -28,18 +28,20 @@ hr {
 details {
   position: relative;
 }
+
 summary {
   width: 100%;
   cursor: pointer;
   margin-bottom: 1rem;
   position: relative;
 }
+
 .heading {
   text-transform: uppercase;
   font-size: 1rem;
 }
-.wrapper {
-}
+
+
 .pill {
   position: absolute;
   right: 0;
@@ -51,4 +53,44 @@ summary {
   color: #b3b3b3;
   font-size: 0.8rem;
   border-radius: 4px;
+}
+
+
+/* Title and toggle */
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#toggle {
+  height: 2rem;
+  font-size: 2rem;
+  font-style: italic;
+  cursor: pointer;
+  line-height: 1rem;
+}
+
+#toggle.collapsed::before {
+  content: "+";
+}
+
+#toggle.expanded::before {
+  /* this encodes the endash */
+  content: "\2013";
+}
+
+
+@media screen and (min-width: 400px) {
+  #toggle {
+    font-size: 0.8rem;
+  }
+
+  #toggle.collapsed::before {
+    content: "+  expand all";
+  }
+
+  #toggle.expanded::before {
+    content: "\2013  collapse all";
+  }
 }
