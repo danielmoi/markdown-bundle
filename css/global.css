@@ -17,3 +17,7 @@ body[data-theme='dark'] {
   background: #121212;
   color: #ccc;
 }
+
+body[data-theme='dark'] h1 {
+  color: #ccc;
+}
