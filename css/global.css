@@ -18,7 +18,9 @@ body[data-theme='dark'] {
   color: #ccc;
 }
 
-body[data-theme='dark'] h1 {
+body[data-theme='dark'] h1,
+body[data-theme='dark'] h2,
+body[data-theme='dark'] h3 {
   color: #ccc;
 }
 
