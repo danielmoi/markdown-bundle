@@ -31,3 +31,7 @@ body[data-theme='dark'] footer {
   background: #121212;
   border-top: 2px solid #3498db;
 }
+
+body[data-theme='dark'] [data-id='crumb'] {
+  background: #000;
+}
