@@ -20,7 +20,10 @@ body[data-theme='dark'] {
 
 body[data-theme='dark'] h1,
 body[data-theme='dark'] h2,
-body[data-theme='dark'] h3 {
+body[data-theme='dark'] h3,
+body[data-theme='dark'] h4,
+body[data-theme='dark'] h5,
+body[data-theme='dark'] h6 {
   color: #ccc;
 }
 
