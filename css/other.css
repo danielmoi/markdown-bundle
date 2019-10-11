@@ -94,3 +94,13 @@ summary {
     content: "\2013  collapse all";
   }
 }
+
+/* Last modified */
+.last-modified {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.last-modified::before {
+  content: 'Last modified: ';
+}
