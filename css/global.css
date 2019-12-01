@@ -40,3 +40,12 @@ body[data-theme='dark'] footer {
 body[data-theme='dark'] [data-id='crumb'] {
   background: #000;
 }
+
+
+body[data-theme='dark'] table tr {
+  background: #333;
+}
+
+body[data-theme='dark'] table tr:nth-child(2n) {
+  background: #666;
+}
