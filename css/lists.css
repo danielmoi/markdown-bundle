@@ -48,7 +48,8 @@ is actually TWO lists
 */
 /* A. style the <ul> */
 ol + ul {
-  margin-top: -1rem;
+  /* this was causing lists parsed as lists in lists to be crowded messes 201220 */
+  /* margin-top: -1rem; */
 }
 /* B. style the <ol> */
 ul + ol,
